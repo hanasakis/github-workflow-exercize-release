@@ -24,4 +24,4 @@ def dedupe_header(columns: List[str]) -> List[str]:
         else:
             result.append(f"{col}.{count}")
         seen_counts[col] += 1
-    return results
+    return result

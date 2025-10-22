@@ -1,4 +1,4 @@
-from app.app import dedupe_header
+from ..app import dedupe_header
 
 def test_unique_columns():
     assert dedupe_header(["id", "name", "age"]) == ["id", "name", "age"]
